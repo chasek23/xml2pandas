@@ -11,9 +11,9 @@ class ReadXML(object):
 
     def __call__(self, *args, **kwargs):
         self.df = self.build_df()
-        if kwargs['detect'] == True:
-            self.type_detector()
-        return self
+        if 'detect' in kwargs.keys():
+            if kwargs['detect'] == True:
+                self.type_detector()
 
     def get_all_columns(self):
         # TODO: Build functionality with schema file

@@ -7,8 +7,10 @@ This package is intended to turn 2-D data in `.xml` format into a pandas DataFra
 
 ### Use:
 
-- `from xml2pandas.src.base import ReadXML`
+- `from xml2pandas import ReadXML`
 - `xml = ReadXML('/path/to/file.xml')`
-- `df = xml()` - preserving call for inevitable keywords and options
+- `xml()` - preserving call for inevitable keywords and options
+    - `xml(detect=True)` will convert numeric colum
+- `df = xml.df`
 
 

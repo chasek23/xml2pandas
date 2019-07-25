@@ -1,1 +1,1 @@
-from src.base import ReadXML
+from xml2pandas.base import ReadXML
