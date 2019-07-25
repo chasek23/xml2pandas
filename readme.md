@@ -5,6 +5,10 @@
 
 This package is intended to turn 2-D data in `.xml` format into a pandas DataFrame.
 
+### Installation:
+
+`pip install xml2pandas`
+
 ### Use:
 
 - `from xml2pandas import ReadXML`
